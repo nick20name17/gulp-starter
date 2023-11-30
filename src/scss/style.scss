@@ -1,0 +1,7 @@
+@mixin bgc($clr: red) {
+    background-color: $clr;
+}
+
+body {
+    @include bgc(blue);
+}
